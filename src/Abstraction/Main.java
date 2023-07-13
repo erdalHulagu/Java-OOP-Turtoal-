@@ -10,7 +10,11 @@ public static void main(String[] args) {
 	//            abstract methods are declared without an implementation
 	
 	Car car =new Car();
+	
+	//1. abstract method
 	car.feature();
+	
+	//2. abstract method
 	System.out.println(car.go());
 }
 }
