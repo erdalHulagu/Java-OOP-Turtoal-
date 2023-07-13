@@ -15,5 +15,13 @@ public class Students extends SchoollClass {
 		
 	}
 
+	// creating method to call from Student class with Super key 
+	// and added local fielsd which are age and namsOfStudent
 	
+	public String open() {
+		
+return super.toString()+this.age+this.nameOfStudent;
+
+	
+	}
 }

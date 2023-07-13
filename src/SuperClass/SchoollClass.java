@@ -10,5 +10,11 @@ public class SchoollClass {
 		this.className=className;
 		
 	}
+	
+	// creating METHOD to call from Student class with Super() key 
+	public String toString() {
+return this.className +"\n"+ this.sujectOfLesson+"\n";
+		
+	}
 
 }
